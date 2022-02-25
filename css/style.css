@@ -1,0 +1,564 @@
+/* font-family: 'Baloo Bhaijaan 2', cursive; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Montserrat', sans-serif;  */
+*{
+    margin: 0%;
+    padding: 0;
+}
+header{
+    min-height: 100vh;
+    background-color: #f4f9f4;
+    position: relative;
+}
+.sub_header{ 
+    padding: 32px 0;
+  
+}
+.header_bg{background-image: url(../images/banner-shap.png);background-position: center;background-repeat: no-repeat;background-size: cover;height: 628px;}
+.navbar-collapse{
+    background-color: #e2ede8;
+    margin-right: -139px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 30px;
+    padding: 0px 20px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.logo{   
+    background: #a7d7c5;    
+    padding: 24px 10px;    
+    position: absolute;    
+    left: 0;    
+    top: -33px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: #c7d9d5;
+}
+.header_content{
+    text-align: center;
+}
+.header_content h1{
+    color: #6c9894;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.header_content p{
+    color: #6c9894;
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header_content button{
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    background: #6c9894;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #6c9894;
+    
+}
+.header_content button:hover{
+    background-color: #fff;
+    color: #6c9894;
+}
+.header_photo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+.header-colam{  
+    position: relative;
+}
+.choose_section{
+    background: #6c9894;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.choose h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Baloo Bhaijaan 2'
+}
+.choose p{
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+}
+.choose_class{
+    /* padding: 50px 0; */
+    /* margin: 30px 0; */
+}
+.choose_img{
+    position: relative;
+}
+.choose_class h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Baloo Bhaijaan 2';
+    margin-top: 10px;
+}
+.choose_class p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.class_img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+.our_section{
+background-image: url(../images/bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.shadow{
+    z-index: -1;
+}
+.our_content{
+    text-align: center;
+}
+.our_content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    color: #6c9894;
+    margin-bottom: 30px;
+    font-family: 'Baloo Bhaijaan 2'
+}
+.our_content p{       
+    color: #6c9894;     
+    font-size: 22px;    
+    font-family: 'Montserrat', sans-serif;
+}
+.stats_section{
+    border: 5px solid #6c9894;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    /* margin-bottom: 10px; */
+}
+.stats_section h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+    color: #6c9894;
+    font-weight: 500;
+    font-family: 'Baloo Bhaijaan 2'
+}
+.stats_section p{
+    font-size: 25px;
+    color: #6c9894;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10px;
+}
+.side_shadow{
+    position: absolute;
+    right: 0;
+    top: 0%;
+    width: 25%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.new_section{
+
+background: #f4f9f4;
+
+position: relative;
+
+z-index: 1;
+}
+.new_img{
+
+}
+.new_content{
+
+/* padding: 50px 0; */
+
+padding-top: 30%;
+
+padding-left: 10%;
+}
+.new_content h1{
+
+text-transform: uppercase;
+
+font-size: 50px;
+
+font-weight: 700;
+
+margin-bottom: 20px;
+
+color: #6c9894;
+
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.new_content p{
+
+font-size: 20px;
+
+color: #6c9894;
+
+margin-bottom: 30px;
+
+font-family: 'Montserrat', sans-serif;
+}
+.new_content button{
+    border: none;
+    background: transparent;
+    background: #6c9894;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding: 8px 20px;
+    color: #f4f9f4;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    border:1px solid #6c9894;
+}
+.new_content button:hover{
+    background-color: #f4f9f4;
+    color: #6c9894;
+}
+.exprience_shap{    
+    position: absolute;     
+    width: 29%;     
+    right: 0;       
+    top: 54%;   
+    transform: translateY(-50%);     
+    z-index: -1;
+}
+.pricing_section{
+    background: #6c9894;
+}
+.pricing_header h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    color: #f4f9f4;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.pricing_header p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #f4f9f4;
+    font-family: 'Montserrat', sans-serif;
+}
+.pricing_table{
+
+text-align: center;
+
+background:#f4f9f4;
+
+height: 100%;
+
+border-radius: 5px;
+
+width: 85%;
+
+margin: auto;
+}
+.pricing_table h1{
+
+text-transform: uppercase;
+
+color: #6c9894;
+
+padding-top: 15px;
+
+font-size: 40px;
+
+margin-bottom: 20px;
+
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.pricing_table h2{
+
+font-size: 40px;
+
+color: #6c9894;
+
+margin-bottom: 30px;
+
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.pricing_icon{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #6c9894;
+}
+.pricing_table p{
+    padding: 25px 20px;
+    color: #6c9894;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pricing_table button{
+    margin-bottom: 30px;
+    background: #6c9894;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 90%;
+    border: none;
+    color: #f4f9f4;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #6c9894;
+}
+.pricing_table button:hover{
+    background-color: #fff;
+    color: #6c9894;
+}
+.trainer_shadow{
+
+position: relative;
+}
+.trainer_section{
+    background-image: url(../images/trainer-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    position: relative;
+}
+.trainer_content h1{
+    font-size: 50px;
+    color: #6c9894;
+    font-weight: 700;
+    font-family: 'Baloo Bhaijaan 2'
+}
+.trainer_img{
+    
+position: absolute;
+    
+left: 50%;
+    
+top: 50%;
+    
+transform: translate(-50%, -84%);
+}
+.trainer_content p{
+    font-size: 40px;
+    color: #6c9894;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.trainer_content{ 
+    text-align: center;
+}
+.update_section{
+    background: #6c9894;
+    position: relative;
+}
+.update_content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #f4f9f4;
+    font-family: 'Baloo Bhaijaan 2';
+}
+.update_content p{
+    color: #f4f9f4;
+    font-size: 23px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.update_content input{
+    width: 80%;
+    margin: auto;
+    padding: 12px 20px;
+    /* border-radius: 25px; */
+    margin-top: 30px;
+}
+.update_content button{
+    position: absolute;
+    border: none;
+    background: #9ec79e;
+    font-size: 23px;
+    /* border-radius: 25px; */
+    padding: 8px 27px;
+    text-transform: uppercase;
+    left: 56%;
+    top: 69%;
+    color: #355e5b;
+    font-family: 'Baloo Bhaijaan 2';
+}
+.update_content button a{
+    text-decoration: none;
+    color: #355e5b;
+}
+footer{
+    background-color: #f4f9f4;
+    padding: 50px 0;
+}
+.title{
+
+}
+.title h1{
+
+text-transform: uppercase;
+
+font-size: 50px;
+
+margin-bottom: 20px;
+
+color: #6c9894;
+
+font-family: 'Baloo Bhaijaan 2';
+
+font-weight: 700;
+}
+.title p{
+
+font-size: 20px;
+
+color: #6c9894;
+}
+.about{
+
+}
+.about h1{
+
+color: #6c9894;
+
+text-transform: uppercase;
+
+font-weight: 700;
+
+font-family: 'Baloo Bhaijaan 2';
+}
+.about ul{
+
+list-style: none;
+
+margin: 0;
+
+padding: 0;
+}
+.about ul li{
+
+margin-bottom: 10px;
+}
+.about ul li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+color: #6c9894;
+
+font-size: 20px;
+
+font-family: 'Montserrat', sans-serif;
+}
+.follow{
+
+}
+.follow ul{
+    
+list-style: none;
+    
+margin: 0;
+    
+padding: 0;
+}
+.follow ul li{
+
+margin-bottom: 10px;
+}
+.follow ul li a:hover i{
+    background-color: #f4f9f4;
+    color: #6c9894;
+}
+.follow ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #6c9894;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+.follow ul li a i{ 
+    width: 30px;    
+    height: 30px;    
+    display: flex;   
+    justify-content: center;    
+    align-items: center;    
+    margin-right: 10px;    
+    background: #6c9894;   
+    border-radius: 50%;   
+    color: #f4f9f4;
+    border: 1px solid #6c9894;
+}
+.follow h1{       
+    color: #6c9894;      
+    font-weight: 700;     
+    font-family: 'Baloo Bhaijaan 2';     
+    text-transform: uppercase;
+}
+.instructor_section{
+
+}
+.instructor{
+    background: #6c9894;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+.instructor_content{
+
+}
+.instructor_content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #f4f9f4;
+    font-family: 'Baloo Bhaijaan 2';
+}
+.instructor_content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4f9f4;
+    font-family: 'Montserrat', sans-serif;
+}
+.instructor_content button{
+    border: none;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px 32px;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 5px;
+    color: #6c9894;
+    margin-bottom: 22px;
+}
